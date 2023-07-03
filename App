@@ -1,0 +1,14 @@
+import React from 'react';
+import {DarthVaderWelcome} from "./DarthVaderWelcome"
+// You only have to update this component
+export default function App() {
+ 
+ return (
+     <div>
+        A famous Star Wars dialog:
+        <DarthVaderWelcome/>
+        <DarthVaderBreakingNews/>
+        <ThisWillCost10YearsOfTherapyToLuke/>
+    </div>
+    )
+}
